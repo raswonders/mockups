@@ -24,6 +24,10 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --color-red: #cf2221;
+}
+
 .hero-section {
   height: 100vh;
   padding: 0 24px;
@@ -31,4 +35,11 @@ html {
   flex-flow: column;
   justify-content: space-between;
   background: url("../assets/hero-section-bg.jpg");
+}
+
+.red-circle {
+  width: 20px;
+  height: 20px;
+  background: var(--color-red);
+  border-radius: 50%;
 }
