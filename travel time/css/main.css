@@ -58,6 +58,11 @@ html {
   border-radius: 50%;
 }
 
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu {
   padding: 0;
 }
