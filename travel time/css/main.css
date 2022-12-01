@@ -85,3 +85,8 @@ html {
   text-transform: uppercase;
   color: white;
 }
+
+.fa-magnifying-glass {
+  color: white;
+  font-size: 3.6rem;
+}
