@@ -57,3 +57,24 @@ html {
   background: var(--color-red);
   border-radius: 50%;
 }
+
+.menu {
+  padding: 0;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  padding-inline-end: 1em;
+}
+
+.menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
