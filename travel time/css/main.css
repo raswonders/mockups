@@ -38,9 +38,22 @@ html {
   background: url("../assets/hero-section-bg.jpg");
 }
 
+.logo {
+  font-size: 1.8rem;
+  letter-spacing: 0.1ch;
+  font-weight: 900;
+  color: white;
+}
+
+.logo > * {
+  vertical-align: bottom;
+}
+
 .red-circle {
-  width: 20px;
-  height: 20px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-inline-end: 1.2rem;
   background: var(--color-red);
   border-radius: 50%;
 }
