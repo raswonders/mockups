@@ -95,3 +95,45 @@ html {
   background: transparent;
   height: 3.6rem;
 }
+
+.travel-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.travel-time {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: white;
+}
+
+.travel-time-highlight {
+  font-size: 4rem;
+}
+
+.travel-time-item {
+  text-align: center;
+  padding-block-end: 1rem;
+}
+
+.travel-time-item:last-child {
+  padding-block-end: 0;
+}
+
+.title-wrap h1 {
+  font-weight: 900; 
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.title-wrap p {
+  max-width: 400px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}
