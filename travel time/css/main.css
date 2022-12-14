@@ -13,6 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
+  background: #161815;
 }
 
 /* default box-sizing is border-box */
@@ -136,4 +137,27 @@ html {
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-block-end: 2px solid lightgray;
+}
+
+.option-wrap {
+  max-width: 30%;
+  padding-block-end: 3.2rem;
+  display: flex;
+  align-items: flex-start;
+  color: rgb(235, 54, 30);
+}
+
+.text-wrap {
+  color: white;
+  padding-inline-start: 20px;
+}
+
+.track-icon {
+  transform: translateY(1em);
 }
