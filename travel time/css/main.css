@@ -62,7 +62,8 @@ html {
 .menu-bar {
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items: center;
+  border-block-end: 2px solid lightgray;
 }
 
 .menu {
@@ -75,10 +76,17 @@ html {
   padding: 0;
   list-style: none;
   display: flex;
+  transform: translateY(2px);
 }
 
 .menu-item {
   padding-inline-end: 1em;
+  padding: 25px;
+  border-block-end: 2px solid transparent;
+}
+
+.menu-item:hover {
+  border-block-end: 2px solid red;
 }
 
 .menu-link {
