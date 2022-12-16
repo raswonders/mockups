@@ -13,7 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
-  background: #161815;
+  background: var(--color-darkgray);
 }
 
 /* default box-sizing is border-box */
@@ -28,6 +28,7 @@ html {
 
 :root {
   --color-red: #cf2221;
+  --color-darkgray: #161815;
 }
 
 .hero-section {
@@ -36,7 +37,7 @@ html {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background: url("../assets/hero-section-bg.jpg");
+  background: linear-gradient(180deg, rgba(255,255,255,0) 85%, rgba(22,24,21,1) 100%), url("../assets/hero-section-bg.jpg");
 }
 
 .logo {
