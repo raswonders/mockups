@@ -174,6 +174,7 @@ footer {
 
 .popular-section {
   color: white;
+  padding: 0 24px;
 }
 
 .popular-title,
@@ -192,6 +193,8 @@ footer {
 }
 
 .tour-carousel {
+  width: fit-content;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -201,13 +204,20 @@ footer {
 .tour-wrap2,
 .tour-wrap3,
 .tour-wrap4 {
-  border: 1px solid red;
+  border: 1px solid gray;
+  border-radius: 5px;
   width: 250px;
   height: 400px;
   background-size: cover;
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
+}
+
+.tour-wrap1,
+.tour-wrap2,
+.tour-wrap3 {
+  margin-inline-end: 20px;
 }
 
 .tour-title {
