@@ -170,3 +170,56 @@ footer {
 .track-icon {
   transform: translateY(1em);
 }
+
+
+.popular-section {
+  color: white;
+}
+
+.popular-title,
+.popular-subtitle {
+ text-align: center;
+}
+
+.popular-title {
+  margin-block-start: 6px;
+  text-transform: uppercase;
+}
+
+.popular-subtitle {
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+.tour-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tour-wrap1,
+.tour-wrap2,
+.tour-wrap3,
+.tour-wrap4 {
+  border: 1px solid red;
+  width: 250px;
+  height: 400px;
+  background-size: cover;
+}
+
+.tour-wrap1 {
+  background-image: url(../assets/tour1.jpg);
+}
+
+.tour-wrap2 {
+  background-image: url(../assets/tour2.jpg);
+}
+
+.tour-wrap3 {
+  background-image: url(../assets/tour3.jpg);
+}
+
+.tour-wrap4 {
+  background-image: url(../assets/tour4.jpg);
+}
+
