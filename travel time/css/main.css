@@ -205,6 +205,24 @@ footer {
   width: 250px;
   height: 400px;
   background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.tour-title {
+  text-align: center;
+}
+
+.tour-main-title {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tour-secondary-title {
+  margin: 1em;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .tour-wrap1 {
