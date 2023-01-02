@@ -39,7 +39,7 @@ html {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 87.5%, var(--color-darkgray) 100%), url("../assets/hero-section-bg.jpg");
+  background: linear-gradient(180deg, rgba(255,255,255,0) 10%, var(--color-darkgray) 100%), url("../assets/hero-section-bg.jpg");
 }
 
 .logo {
