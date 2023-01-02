@@ -29,6 +29,8 @@ html {
 :root {
   --color-red: #cf2221;
   --color-darkgray: #161815;
+  --color-gray: rgba(120,120,120,1);
+  --color-lightgray: rgba(180,180,180,1);
 }
 
 .hero-section {
@@ -37,7 +39,7 @@ html {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 85%, rgba(22,24,21,1) 100%), url("../assets/hero-section-bg.jpg");
+  background: linear-gradient(180deg, rgba(255,255,255,0) 87.5%, var(--color-darkgray) 100%), url("../assets/hero-section-bg.jpg");
 }
 
 .logo {
@@ -194,30 +196,42 @@ footer {
 
 .tour-carousel {
   width: fit-content;
+  height: 420px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .tour-wrap1,
 .tour-wrap2,
 .tour-wrap3,
 .tour-wrap4 {
-  border: 1px solid gray;
-  border-radius: 5px;
   width: 250px;
   height: 400px;
   background-size: cover;
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
+  cursor: pointer;
+  border: 1px solid var(--color-gray);
+  border-image: linear-gradient(180deg, var(--color-gray) 30%, var(--color-darkgray) 95%) 1;
+  border-radius: 5px;
 }
 
 .tour-wrap1,
 .tour-wrap2,
 .tour-wrap3 {
   margin-inline-end: 20px;
+}
+
+.tour-wrap1:hover,
+.tour-wrap2:hover,
+.tour-wrap3:hover,
+.tour-wrap4:hover {
+  height: 420px;
+  border-image: linear-gradient(180deg, var(--color-gray) 30%, var(--color-lightgray) 95%) 1;
 }
 
 .tour-title {
@@ -236,18 +250,17 @@ footer {
 }
 
 .tour-wrap1 {
-  background-image: url(../assets/tour1.jpg);
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 30%, var(--color-darkgray) 100%), url(../assets/tour1.jpg);
 }
 
 .tour-wrap2 {
-  background-image: url(../assets/tour2.jpg);
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 30%, var(--color-darkgray) 100%), url(../assets/tour2.jpg);
 }
 
 .tour-wrap3 {
-  background-image: url(../assets/tour3.jpg);
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 30%, var(--color-darkgray) 100%), url(../assets/tour3.jpg);
 }
 
 .tour-wrap4 {
-  background-image: url(../assets/tour4.jpg);
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 30%, var(--color-darkgray) 100%), url(../assets/tour4.jpg);
 }
-
