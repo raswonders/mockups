@@ -145,18 +145,29 @@ html {
   padding-block-end: 0;
 }
 
-.title-wrap h1 {
-  font-weight: 900;
-  font-size: 8rem;
-  text-transform: uppercase;
+.title-wrap {
   color: white;
 }
 
-.title-wrap p {
+.title-wrap h1,
+.title-wrap h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title-wrap h1 {
+  font-size: 8rem;
+}
+
+.title-wrap h2 {
+  font-size: 5rem;
+}
+
+.title-wrap p,
+.title-wrap small {
   max-width: 400px;
   font-size: 1.8rem;
   font-weight: 500;
-  color: white;
 }
 
 footer {
@@ -274,4 +285,20 @@ footer {
 
 .tour-wrap4 {
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, var(--color-darkgray) 100%), url(../assets/tour4.jpg);
+}
+
+.play-link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.watch-caption {
+  display: inline-block;
+  font-size: 2rem;
+  transform: translateY(-25%);
+  padding-inline-start: 1rem;
 }
