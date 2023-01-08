@@ -43,6 +43,12 @@ html {
   background-size: cover;
 }
 
+.discover-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-section {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 40%, var(--color-darkgray) 100%), center / cover url("../assets/hero-section-bg.jpg");
 }
@@ -301,4 +307,37 @@ footer {
   font-size: 2rem;
   transform: translateY(-25%);
   padding-inline-start: 1rem;
+}
+
+.discover-wrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.video-wrap-first {
+  background: url("../assets/island.jpg");
+  margin-inline: 48px;
+}
+
+.video-wrap-second {
+  background-image: url("../assets/prague.jpg");
+}
+
+.video-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+.video-snapshots {
+  display: flex;
+}
+
+.row-snapshot {
+  display: flex;
+  align-items: center;
 }
