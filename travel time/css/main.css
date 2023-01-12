@@ -45,7 +45,7 @@ html {
 
 .discover-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -340,4 +340,20 @@ footer {
 .row-snapshot {
   display: flex;
   align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.8);
+  font-size: 5rem;
+  padding: 5rem 0;
+}
+
+.social-icons>*:not(:last-child) {
+  margin-inline-end: 100px;
+}
+
+.social-icons>* {
+  cursor: pointer;
 }
