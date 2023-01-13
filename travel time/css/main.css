@@ -95,6 +95,7 @@ html {
 }
 
 .menu-bar {
+  color: var(--color-lightgray);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,18 +126,19 @@ html {
 }
 
 .menu-link {
+  color: var(--color-lightgray);
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
 }
 
 .fa-magnifying-glass {
-  color: white;
   font-size: 3.6rem;
+  vertical-align: middle;
 }
 
-.input-search {
+#input-search {
   background: transparent;
+  border: none;
   height: 3.6rem;
 }
 
