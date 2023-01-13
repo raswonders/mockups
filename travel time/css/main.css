@@ -260,10 +260,8 @@ footer {
   align-items: flex-end;
 }
 
-.tour-wrap1,
-.tour-wrap2,
-.tour-wrap3,
-.tour-wrap4 {
+
+.tour-carousel>* {
   width: 250px;
   height: 400px;
   background-size: cover;
@@ -276,16 +274,11 @@ footer {
   border-radius: 5px;
 }
 
-.tour-wrap1,
-.tour-wrap2,
-.tour-wrap3 {
-  margin-inline-end: 20px;
+.tour-carousel>*:not(:last-child) {
+  margin-inline-end: 1.5%;
 }
 
-.tour-wrap1:hover,
-.tour-wrap2:hover,
-.tour-wrap3:hover,
-.tour-wrap4:hover {
+.tour-carousel>*:hover {
   height: 420px;
   border-image: linear-gradient(180deg, var(--color-gray) 30%, var(--color-lightgray) 95%) 1;
 }
