@@ -355,6 +355,10 @@ footer {
   filter: brightness(0.8);
 }
 
+.video-wrap:hover {
+  filter: brightness(1);
+}
+
 .video-snapshots {
   display: flex;
 }
