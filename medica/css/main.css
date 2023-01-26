@@ -42,6 +42,11 @@ html {
   list-style: none;
 }
 
+.nav-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-menu li:not(:last-of-type) {
   padding-right: 1em;
 }
