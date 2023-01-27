@@ -73,3 +73,19 @@ html {
   color: white;
   background-color: var(--color-darkcyan);
 }
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.hero-subtitle {
+  font-weight: 600;
+  color: gray;
+  width: 350px;
+  word-spacing: 0.3ch;
+}
+
+.bold {
+  font-weight: 700;
+}
